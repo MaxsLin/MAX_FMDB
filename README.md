@@ -1,7 +1,7 @@
 #MAX_FMDB
 > 基于FMDB 封装
 
-``
+//
 [MAXFMDB shareManager:^(MAXFMDB *manager) {
      
      // 建表
@@ -55,5 +55,6 @@
     model.name = @"小王";
     model.age = 18;
     model.id = 1001;
+    
     
     [MAXFMDB share]().insert_model(model, @"myTable");
