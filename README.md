@@ -57,3 +57,8 @@
     model.id = 1001;
     
     [MAXFMDB share]().insert_model(model, @"myTable");
+    
+    
+    
+*功能有点不完善，后期会更新.
+    
